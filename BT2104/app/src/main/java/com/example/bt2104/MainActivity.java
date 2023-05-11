@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity implements SmsListener {
     }
     @Override
     public void onSmsReceived() {
-            adapter1.notifyDataSetChanged();
-            adapter2.notifyDataSetChanged();
-            adapter3.notifyDataSetChanged();
-        }
+        adapter1.notifyDataSetChanged();
+        adapter2.notifyDataSetChanged();
+        adapter3.notifyDataSetChanged();
+    }
 }
