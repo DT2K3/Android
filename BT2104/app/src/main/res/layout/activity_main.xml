@@ -12,7 +12,8 @@
         android:id="@+id/vip_title_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tin nhắn VIP" />
+        android:text="Tin nhắn VIP"
+        android:textColor="@color/purple_700"/>
 
     <ListView
         android:id="@+id/vip_list_view"
@@ -25,7 +26,8 @@
         android:id="@+id/promotion_title_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tin nhắn khuyến mãi" />
+        android:text="Tin nhắn khuyến mãi"
+        android:textColor="@color/design_default_color_secondary_variant"/>
 
     <ListView
         android:id="@+id/promotion_list_view"
