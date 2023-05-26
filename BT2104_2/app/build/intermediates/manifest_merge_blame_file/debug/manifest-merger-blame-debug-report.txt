@@ -1,0 +1,132 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bt2104_2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\ACER\.gradle\caches\transforms-3\a1fc171b8886828b2266303d8865d156\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.bt2104_2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\ACER\.gradle\caches\transforms-3\a1fc171b8886828b2266303d8865d156\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\ACER\.gradle\caches\transforms-3\a1fc171b8886828b2266303d8865d156\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.bt2104_2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\ACER\.gradle\caches\transforms-3\a1fc171b8886828b2266303d8865d156\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\ACER\.gradle\caches\transforms-3\a1fc171b8886828b2266303d8865d156\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:4:5-50:19
+18        android:allowBackup="true"
+18-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\ACER\.gradle\caches\transforms-3\a1fc171b8886828b2266303d8865d156\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:6:9-43
+23        android:label="@string/app_name"
+23-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:7:9-41
+24        android:supportsRtl="true"
+24-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:8:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.BT2104_2" >
+26-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:9:9-46
+27        <receiver
+27-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:11:9-19:20
+28            android:name="com.example.bt2104_2.Receiver3KhongQuanTrong"
+28-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:12:13-52
+29            android:enabled="true"
+29-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:13:13-35
+30            android:exported="true"
+30-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:14:13-36
+31            android:priority="-100" >
+31-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:15:13-36
+32            <intent-filter>
+32-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:16:13-18:29
+33                <action android:name="com.example.bt2104_2" />
+33-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:17:17-63
+33-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:17:25-60
+34            </intent-filter>
+35        </receiver>
+36        <receiver
+36-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:21:9-28:20
+37            android:name="com.example.bt2104_2.Receiver2BinhThuong"
+37-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:22:13-48
+38            android:enabled="true"
+38-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:23:13-35
+39            android:exported="true" >
+39-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:24:13-36
+40            <intent-filter>
+40-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:16:13-18:29
+41                <action android:name="com.example.bt2104_2" />
+41-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:17:17-63
+41-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:17:25-60
+42            </intent-filter>
+43        </receiver>
+44        <receiver
+44-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:30:9-38:20
+45            android:name="com.example.bt2104_2.Receiver1QuanTrong"
+45-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:31:13-47
+46            android:enabled="true"
+46-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:32:13-35
+47            android:exported="true"
+47-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:33:13-36
+48            android:priority="100" >
+48-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:34:13-35
+49            <intent-filter>
+49-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:16:13-18:29
+50                <action android:name="com.example.bt2104_2" />
+50-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:17:17-63
+50-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:17:25-60
+51            </intent-filter>
+52        </receiver>
+53
+54        <activity
+54-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:40:9-48:20
+55            android:name="com.example.bt2104_2.MainActivity"
+55-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:41:13-41
+56            android:exported="true" >
+56-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:42:13-36
+57            <intent-filter>
+57-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:43:13-47:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:44:17-69
+58-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:44:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:46:17-77
+60-->D:\Documents\GitHub\Android\BT2104_2\app\src\main\AndroidManifest.xml:46:27-74
+61            </intent-filter>
+62        </activity>
+63
+64        <provider
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\4cafa23c20f5012fb6bd9ab48ebfa419\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\4cafa23c20f5012fb6bd9ab48ebfa419\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+66            android:authorities="com.example.bt2104_2.androidx-startup"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\4cafa23c20f5012fb6bd9ab48ebfa419\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+67            android:exported="false" >
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\4cafa23c20f5012fb6bd9ab48ebfa419\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\4cafa23c20f5012fb6bd9ab48ebfa419\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\4cafa23c20f5012fb6bd9ab48ebfa419\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\4cafa23c20f5012fb6bd9ab48ebfa419\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ACER\.gradle\caches\transforms-3\37ac9ef766fe9e865bc81ceaffd60be0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ACER\.gradle\caches\transforms-3\37ac9ef766fe9e865bc81ceaffd60be0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ACER\.gradle\caches\transforms-3\37ac9ef766fe9e865bc81ceaffd60be0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+74        </provider>
+75    </application>
+76
+77</manifest>
